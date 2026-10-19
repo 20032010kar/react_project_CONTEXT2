@@ -1,4 +1,4 @@
-import { useOnlineStatus } from "@/context/useOnlineStatus.js";
+import { useOnlineStatus } from "@/HOMEWORK_CONTEXT/useOnlineStatus.js";
 import React from "react";
 
 const OnlinePage = () => {

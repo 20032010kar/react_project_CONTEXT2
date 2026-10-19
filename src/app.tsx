@@ -2,13 +2,13 @@ import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 import React from "react";
 
 import HomePage from "./pages/home.js";
-import WindowPage from "./pages/WindowPage.js";
+import WindowPage from "./pages/HOMEWORK_PAGES/WindowPage.js";
 import RootLayout from "./root_layout.js";
-import { WindowSizeProvider } from "./context/WindowSize.js";
-import TooglePage from "./pages/TooglePage.js";
-import OnlinePage from "./pages/OnlinePage.js";
-import PreviousPage from "./pages/PreviousPage.js";
-import OutsidePage from "./pages/OutsidePage.js";
+import { WindowSizeProvider } from "./HOMEWORK_CONTEXT/WindowSize.js";
+import TooglePage from "./pages/HOMEWORK_PAGES/TooglePage.js";
+import OnlinePage from "./pages/HOMEWORK_PAGES/OnlinePage.js";
+import PreviousPage from "./pages/HOMEWORK_PAGES/PreviousPage.js";
+import OutsidePage from "./pages/HOMEWORK_PAGES/OutsidePage.js";
 
 const NotFoundPage = () => (
     <div>

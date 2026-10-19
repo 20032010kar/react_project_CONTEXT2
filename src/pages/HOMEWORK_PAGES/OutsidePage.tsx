@@ -1,4 +1,4 @@
-import { useClickOutside } from "@/context/useClickOutside.js";
+import { useClickOutside } from "@/HOMEWORK_CONTEXT/useClickOutside.js";
 import React, { useState, useRef } from "react";
 
 const OutsidePage = () => {

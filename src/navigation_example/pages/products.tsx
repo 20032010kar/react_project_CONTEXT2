@@ -15,7 +15,7 @@ const ProductsPage = () => {
     return (
 
         <div>
-            <main className="flex-grow max-w-7xl w-full mx-auto px-6 py-10">
+            <main className="grow max-w-7xl w-full mx-auto px-6 py-10">
                  <button onClick={handleGoToMainPage} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Go to MainPage
                     </button>
@@ -55,7 +55,7 @@ const ProductsPage = () => {
 
                     {/* ДРУГА ЧАСТИНА: Тут спрацьовує Outlet (5 колонок) */}
                     <div className="lg:col-span-5 sticky top-28">
-                        <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm min-h-[400px] flex flex-col justify-center">
+                        <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm flex flex-col justify-center">
                             <Outlet />
                         </div>
                     </div>

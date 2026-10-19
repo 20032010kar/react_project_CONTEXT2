@@ -1,4 +1,4 @@
-import { useWindowSize } from "@/context/WindowSize.js";
+import { useWindowSize } from "@/HOMEWORK_CONTEXT/WindowSize.js";
 import React from "react";
 
 const WindowPage = () => {
